@@ -26,7 +26,7 @@ function App() {
       errorElement: <ErrorPage />,
     },
     {
-      path: "/register",
+      path: "/",
       element: (
         <Suspense fallback={<Loader/>}>
           <RegistrationPage />

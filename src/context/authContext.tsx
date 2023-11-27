@@ -20,7 +20,7 @@ interface AppProviderProps {
 }
 
 export const AppProvider: React.FC<AppProviderProps> = ({ children }) => {
-  const [user, setUser] = useState<null>(null);
+  const [user] = useState<null>(null);
   
  
   return (
